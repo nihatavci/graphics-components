@@ -2,7 +2,7 @@ Byline and dateline.
 
 ```svelte
 <script>
-  import { Byline } from '@reuters-graphics/graphics-components';
+  import { Byline } from '@nihatavci/graphics-components';
 </script>
 
 <Byline

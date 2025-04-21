@@ -2,7 +2,7 @@ Use the `hed` and/or `dek` named slots to override those elements with completel
 
 ```svelte
 <script>
-  import { Headline } from '@reuters-graphics/graphics-components';
+  import { Headline } from '@nihatavci/graphics-components';
 </script>
 
 <Headline width="wide">

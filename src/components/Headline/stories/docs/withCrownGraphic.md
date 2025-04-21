@@ -2,7 +2,7 @@ Add a full graphic or any other component in the crown.
 
 ```svelte
 <script>
-  import { Headline } from '@reuters-graphics/graphics-components';
+  import { Headline } from '@nihatavci/graphics-components';
   import Map from './ai2svelte/graphic.svelte';
   import { assets } from '$app/paths';
 </script>

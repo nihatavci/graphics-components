@@ -15,7 +15,7 @@
 
 ```html
 <script>
-  import { YourComponent } from '@reuters-graphics/graphics-components';
+  import { YourComponent } from '@nihatavci/graphics-components';
 </script>
 
 

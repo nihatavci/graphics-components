@@ -2,7 +2,7 @@ End notes includes notes to the main article — usually things like sources, cl
 
 ```svelte
 <script>
-  import { EndNotes } from '@reuters-graphics/graphics-components';
+  import { EndNotes } from '@nihatavci/graphics-components';
 
   const notes = [
     {

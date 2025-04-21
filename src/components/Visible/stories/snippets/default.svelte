@@ -1,5 +1,5 @@
 <script>
-  import { Visible } from '@reuters-graphics/graphics-components';
+  import { Visible } from '@nihatavci/graphics-components';
 </script>
 
 <Visible let:visible>

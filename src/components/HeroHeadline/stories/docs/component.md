@@ -2,7 +2,7 @@ Reuters Graphics headline with a Hero media
 
 ```svelte
 <script>
-  import { HeroHeadline } from '@reuters-graphics/graphics-components';
+  import { HeroHeadline } from '@nihatavci/graphics-components';
   import { assets } from '$app/paths'; // 👈 If using in the Graphics Kit...
 
   export let embedded = false;

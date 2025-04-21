@@ -6,7 +6,7 @@ Use the slots to customize the content as needed, e.g. adding icons and thumbnai
 
 ```svelte
 <script>
-  import { InfoBox } from '@reuters-graphics/graphics-components';
+  import { InfoBox } from '@nihatavci/graphics-components';
 </script>
 
 <InfoBox

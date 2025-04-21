@@ -4,7 +4,7 @@ The Markdown component renders markdown into HTML. That's it!
 
 ```svelte
 <script>
-  import { Markdown } from '@reuters-graphics/graphics-components';
+  import { Markdown } from '@nihatavci/graphics-components';
 </script>
 
 <Markdown source="{'My markdown **string**!'}" />
@@ -18,7 +18,7 @@ For example, if you're refreshing some data with markdown strings in a SvelteKit
 
 ```javascript
 // +layout.js
-import { staticMarkdown } from '@reuters-graphics/graphics-components';
+import { staticMarkdown } from '@nihatavci/graphics-components';
 import { building } from '$app/environment';
 
 /** @type {import('./$types').LayoutLoad} */

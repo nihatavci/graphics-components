@@ -5,7 +5,7 @@ Reuters Graphics headline with ai2svelte graphic as background.
   import {
     HeroHeadline,
     GraphicBlock,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
   import QuakeMap from './ai2svelte/graphic.svelte';
   import { assets } from '$app/paths';
 

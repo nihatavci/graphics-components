@@ -8,7 +8,7 @@ The `ReferralBlock` component creates a set of referral links from recent dotcom
 
 ```svelte
 <script>
-  import { ReferralBlock } from '@reuters-graphics/graphics-components';
+  import { ReferralBlock } from '@nihatavci/graphics-components';
 </script>
 
 <ReferralBlock section="/lifestyle/sports/" />

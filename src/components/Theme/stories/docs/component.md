@@ -4,7 +4,7 @@ Use our [theme builder](../?path=/docs/theming-theme-builder--docs) to customise
 
 ```svelte
 <script>
-  import { Theme } from '@reuters-graphics/graphics-components';
+  import { Theme } from '@nihatavci/graphics-components';
 </script>
 
 <Theme base="light">

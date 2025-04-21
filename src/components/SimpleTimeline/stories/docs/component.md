@@ -2,7 +2,7 @@ A simple, clean text timeline.
 
 ```svelte
 <script>
-  import { SimpleTimeline } from '@reuters-graphics/graphics-components';
+  import { SimpleTimeline } from '@nihatavci/graphics-components';
 
   const dates = [
     {

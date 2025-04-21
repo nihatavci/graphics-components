@@ -13,7 +13,7 @@ caption: Carcharodon carcharias - REUTERS
 ```svelte
 <!-- App.svelte -->
 <script>
-  import { FeaturePhoto } from '@reuters-graphics/graphics-components';
+  import { FeaturePhoto } from '@nihatavci/graphics-components';
 
   import content from '$locales/en/content.json';
   import { assets } from '$app/paths';

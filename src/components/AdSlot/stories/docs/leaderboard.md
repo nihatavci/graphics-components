@@ -9,7 +9,7 @@ Add a leaderboard ad to your page.
     AdScripts,
     LeaderboardAd,
     SiteHeader,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
 </script>
 
 <!-- Include AdScripts only ONCE per page for any type of ad -->

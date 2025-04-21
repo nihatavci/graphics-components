@@ -2,7 +2,7 @@ A more detailed example of using `GraphicBlock` with components created by [ai2s
 
 ```svelte
 <script>
-  import { GraphicBlock } from '@reuters-graphics/graphics-components';
+  import { GraphicBlock } from '@nihatavci/graphics-components';
   import MyAiMap from './ai2svelte/my-map.svelte';
   import { assets } from '$app/paths'; // If using with the Graphics Kit
 </script>

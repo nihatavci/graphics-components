@@ -4,7 +4,7 @@ The `Scroller` component helps you quickly create basic scrollytelling graphics 
 
 ```svelte
 <script>
-  import { Scroller } from '@reuters-graphics/graphics-components';
+  import { Scroller } from '@nihatavci/graphics-components';
 
   import MyColourBackground from './MyColourBackground.svelte';
 

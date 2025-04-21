@@ -6,7 +6,8 @@ const config: UserConfig = defineConfig({
   base: 'https://reuters-graphics.github.io/graphics-components/',
   resolve: {
     alias: {
-      '@reuters-graphics/graphics-components': path.resolve('./src'),
+      '@nihatavci/graphics-components': path.resolve('./src'),
+      '@nihatavci/graphics-components': path.resolve('./src'),
       $lib: path.resolve('./src'),
       $docs: path.resolve('./src/docs'),
     },

@@ -39,7 +39,7 @@ Luckily, it's still pretty easy. Just add a `cls` or `id` to your `Block` so you
   $column-width-wide: 860px;
   $column-width-wider: 1400px;
 
-  @use '@reuters-graphics/graphics-components/scss/mixins' as mixins;
+  @use '@nihatavci/graphics-components/scss/mixins' as mixins;
 
   :global {
     div.custom-blocks {

@@ -6,7 +6,7 @@ This is really useful for lazy loading elements, especially expensive media file
 
 ```svelte
 <script>
-  import { Visible } from '@reuters-graphics/graphics-components';
+  import { Visible } from '@nihatavci/graphics-components';
 </script>
 
 <Visible let:visible>

@@ -2,7 +2,7 @@ Add a cover video and position the title with ease.
 
 ```svelte
 <script>
-  import { HeroHeadline, Video } from '@reuters-graphics/graphics-components';
+  import { HeroHeadline, Video } from '@nihatavci/graphics-components';
   import { assets } from '$app/paths';
 
   export let embedded = false;

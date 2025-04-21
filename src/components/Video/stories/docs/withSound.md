@@ -21,7 +21,7 @@ and go to the top. Click anywhere on the page before scrolling down to the video
 
 ```svelte
 <script>
-  import { Video } from '@reuters-graphics/graphics-components';
+  import { Video } from '@nihatavci/graphics-components';
 </script>
 
 <Video

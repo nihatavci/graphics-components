@@ -2,7 +2,7 @@ An embed tool for development in the Graphics Kit.
 
 ```svelte
 <script>
-  import { Framer } from '@reuters-graphics/graphics-components';
+  import { Framer } from '@nihatavci/graphics-components';
 
   const embeds = ['/embeds/my-chart/index.html'];
 </script>

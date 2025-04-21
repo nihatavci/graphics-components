@@ -2,7 +2,7 @@ A more detailed example of using `Scroller` with graphics created by [ai2svelte]
 
 ```svelte
 <script>
-  import { Scroller } from '@reuters-graphics/graphics-components';
+  import { Scroller } from '@nihatavci/graphics-components';
 
   import MyAiMap1 from './ai2svelte/my-map-step-1.svelte';
   import MyAiMap2 from './ai2svelte/my-map-step-2.svelte';

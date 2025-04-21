@@ -10,7 +10,7 @@ updated:
 ```svelte
 <!-- App.svelte -->
 <script>
-  import { SiteHeadline } from '@reuters-graphics/graphics-components';
+  import { SiteHeadline } from '@nihatavci/graphics-components';
 
   import content from '$locales/en/content.json';
 </script>

@@ -4,7 +4,7 @@ The `PaddingReset` component resets padding on the `Article` well that's been ca
 
 ```svelte
 <script>
-  import { Block, PaddingReset } from '@reuters-graphics/graphics-components';
+  import { Block, PaddingReset } from '@nihatavci/graphics-components';
 </script>
 
 <Block width="fluid">
@@ -20,7 +20,7 @@ You can also add the padding conditionally by using the `containerIsFluid` prop,
 
 ```svelte
 <script>
-  import { Block, PaddingReset } from '@reuters-graphics/graphics-components';
+  import { Block, PaddingReset } from '@nihatavci/graphics-components';
 
   export let src = 'https://...';
   export let width = 'fluid';

@@ -9,7 +9,7 @@ For example, here's how you can use SvelteKit's [`afterNavigate`](https://kit.sv
   import {
     Analytics,
     registerPageview,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
   import { afterNavigate } from '$app/navigation';
 
   let isFirstPageview = true;

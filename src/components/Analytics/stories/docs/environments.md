@@ -6,7 +6,7 @@ For example, the following excludes analytics from pages in development or hoste
 
 ```svelte
 <script>
-  import { Analytics } from '@reuters-graphics/graphics-components';
+  import { Analytics } from '@nihatavci/graphics-components';
   import { dev } from '$app/environment';
   import { page } from '$app/stores';
 </script>

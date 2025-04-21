@@ -7,7 +7,7 @@ import { writable } from 'svelte/store';
  * @example
  * ```javascript
  * // +layout.js
- * import { staticMarkdown } from '@reuters-graphics/graphics-components';
+ * import { staticMarkdown } from '@nihatavci/graphics-components';
  * import { building } from '$app/environment';
  *
  * export const load = async() => {

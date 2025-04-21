@@ -4,7 +4,7 @@ Styles for this headline are intentionally restricted. It is meant to serve as a
 
 ```svelte
 <script>
-  import { SiteHeadline } from '@reuters-graphics/graphics-components';
+  import { SiteHeadline } from '@nihatavci/graphics-components';
 </script>
 
 <SiteHeadline

@@ -2,7 +2,7 @@ Invite users to search for something.
 
 ```svelte
 <script>
-  import { SearchInput } from '@reuters-graphics/graphics-components';
+  import { SearchInput } from '@nihatavci/graphics-components';
 
   function handleSearchInput(event) {
     const searchText = event.detail.value;

@@ -1,4 +1,4 @@
-# @reuters-graphics/graphics-components
+# @nihatavci/graphics-components
 
 ## 2.0.3
 

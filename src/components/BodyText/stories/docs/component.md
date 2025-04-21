@@ -4,7 +4,7 @@ Use it like this:
 
 ```svelte
 <script>
-  import { BodyText } from '@reuters-graphics/graphics-components';
+  import { BodyText } from '@nihatavci/graphics-components';
 
   const markdownText = `Bacon ipsum **dolor amet** cow tongue tri-tip.
   
@@ -32,7 +32,7 @@ text: Lorem ipsum ...
 
 ```svelte
 <script>
-  import { BodyText } from '@reuters-graphics/graphics-components';
+  import { BodyText } from '@nihatavci/graphics-components';
 
   import content from '$locales/en/content.json';
 </script>

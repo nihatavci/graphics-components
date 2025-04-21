@@ -5,7 +5,7 @@ Reuters Graphics headline followed by a graphic or any media block.
   import {
     HeroHeadline,
     FeaturePhoto,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
   import { assets } from '$app/paths';
 
   export let embedded = false;

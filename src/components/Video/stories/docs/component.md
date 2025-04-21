@@ -2,7 +2,7 @@ General-purpose video component. Can play on load or when the video comes into v
 
 ```svelte
 <script>
-  import { Video } from '@reuters-graphics/graphics-components';
+  import { Video } from '@nihatavci/graphics-components';
   import { assets } from '$app/paths'; // If using local video in the Graphics Kit
 </script>
 

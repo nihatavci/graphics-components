@@ -2,7 +2,7 @@ A simple, accessible photo carousel with lazy-loading and mobile swipe built in.
 
 ```svelte
 <script>
-  import { PhotoCarousel } from '@reuters-graphics/graphics-components';
+  import { PhotoCarousel } from '@nihatavci/graphics-components';
 
   const photos = [
     {

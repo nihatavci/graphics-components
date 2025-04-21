@@ -4,7 +4,7 @@ Reuters dotcom site footer with graphics referrals, ported from [Raptor UI compo
 
 ```svelte
 <script>
-  import { SiteFooter } from '@reuters-graphics/graphics-components';
+  import { SiteFooter } from '@nihatavci/graphics-components';
 </script>
 
 <SiteFooter />

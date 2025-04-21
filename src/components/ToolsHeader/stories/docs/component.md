@@ -4,7 +4,7 @@ A header for internal tooling sites.
 
 ```svelte
 <script>
-  import { ToolsHeader } from '@reuters-graphics/graphics-components';
+  import { ToolsHeader } from '@nihatavci/graphics-components';
 </script>
 
 <ToolsHeader>

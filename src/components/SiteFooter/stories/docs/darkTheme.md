@@ -2,7 +2,7 @@ Colours are customised by the [`Theme`](?path=/docs/theming-theme--default) comp
 
 ```svelte
 <script>
-  import { SiteFooter, Theme } from '@reuters-graphics/graphics-components';
+  import { SiteFooter, Theme } from '@nihatavci/graphics-components';
 </script>
 
 <Theme base="dark">

@@ -6,7 +6,7 @@ The document must have its access level set to public before it can be embedded.
 
 ```svelte
 <script>
-  import { DocumentCloud } from '@reuters-graphics/graphics-components';
+  import { DocumentCloud } from '@nihatavci/graphics-components';
 </script>
 
 <DocumentCloud

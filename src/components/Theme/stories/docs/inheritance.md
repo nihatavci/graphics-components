@@ -4,7 +4,7 @@ The demo below shows a more complex example of nesting themes, but more likely y
 
 ```svelte
 <script>
-  import { Theme } from '@reuters-graphics/graphics-components';
+  import { Theme } from '@nihatavci/graphics-components';
 </script>
 
 <Theme>

@@ -4,7 +4,7 @@ Reuters Graphics team logo.
 
 ```svelte
 <script>
-  import { ReutersGraphicsLogo } from '@reuters-graphics/graphics-components';
+  import { ReutersGraphicsLogo } from '@nihatavci/graphics-components';
 </script>
 
 <ReutersGraphicsLogo />

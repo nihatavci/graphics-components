@@ -2,7 +2,7 @@ Remove graphics referrals.
 
 ```svelte
 <script>
-  import { SiteFooter } from '@reuters-graphics/graphics-components';
+  import { SiteFooter } from '@nihatavci/graphics-components';
 </script>
 
 <SiteFooter includeReferrals="{false}" />

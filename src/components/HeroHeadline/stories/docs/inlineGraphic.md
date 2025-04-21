@@ -5,7 +5,7 @@ Reuters Graphics headline followed by a graphic or any media block.
   import {
     HeroHeadline,
     GraphicBlock,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
   import Map from './ai2svelte/graphic.svelte';
   import { assets } from '$app/paths';
 

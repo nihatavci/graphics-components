@@ -2,7 +2,7 @@ A Pym.js child instance for embeddables.
 
 ```svelte
 <script>
-  import { PymChild } from '@reuters-graphics/graphics-components';
+  import { PymChild } from '@nihatavci/graphics-components';
 </script>
 
 <PymChild polling="{500}" />
@@ -15,7 +15,7 @@ You can access the Pym.js child through its store in other components to send cu
   import {
     PymChild,
     pymChildStore,
-  } from '@reuters-graphics/graphics-components';
+  } from '@nihatavci/graphics-components';
 
   const updateHeight = () => {
     if ($pymChildStore) $pymChildStore.sendHeight();

@@ -15,7 +15,7 @@ Here is an example of what the same video would look like with a visibility thre
 
 ```svelte
 <script>
-  import { Video } from '@reuters-graphics/graphics-components';
+  import { Video } from '@nihatavci/graphics-components';
 </script>
 
 <Video

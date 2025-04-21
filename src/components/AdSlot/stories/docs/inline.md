@@ -5,7 +5,7 @@ Add programmatic ads inline on your page.
 ```svelte
 <!-- +page.svelte -->
 <script>
-  import { AdScripts } from '@reuters-graphics/graphics-components';
+  import { AdScripts } from '@nihatavci/graphics-components';
 </script>
 
 <!-- Include AdScripts only ONCE per page for any type of ad -->
@@ -15,7 +15,7 @@ Add programmatic ads inline on your page.
 ```svelte
 <!-- App.svelte -->
 <script>
-  import { InlineAd } from '@reuters-graphics/graphics-components';
+  import { InlineAd } from '@nihatavci/graphics-components';
 
   export let embedded = false;
 </script>

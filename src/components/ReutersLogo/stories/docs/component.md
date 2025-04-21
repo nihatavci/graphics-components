@@ -2,7 +2,7 @@ The official Reuters logo.
 
 ```svelte
 <script>
-  import { ReutersLogo } from '@reuters-graphics/graphics-components';
+  import { ReutersLogo } from '@nihatavci/graphics-components';
 </script>
 
 <ReutersLogo />

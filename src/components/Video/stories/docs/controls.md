@@ -19,7 +19,7 @@ Here is an example with bottom right corner white opaque controls, with a replay
 
 ```svelte
 <script>
-  import { Video } from '@reuters-graphics/graphics-components';
+  import { Video } from '@nihatavci/graphics-components';
 </script>
 
 <Video

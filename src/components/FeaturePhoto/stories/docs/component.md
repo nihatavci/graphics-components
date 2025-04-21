@@ -2,7 +2,7 @@ A full-width photo inside the text well.
 
 ```svelte
 <script>
-  import { FeaturePhoto } from '@reuters-graphics/graphics-components';
+  import { FeaturePhoto } from '@nihatavci/graphics-components';
   import { assets } from '$app/paths'; // 👈 If using in the Graphics Kit...
 </script>
 

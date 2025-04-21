@@ -10,7 +10,7 @@ shareImgAlt: Alt text for share image.
 
 ```svelte
 <script>
-  import { SEO } from '@reuters-graphics/graphics-components';
+  import { SEO } from '@nihatavci/graphics-components';
   import pkg from '$pkg';
   import content from '$locales/en/content.json';
   import { assets } from '$app/paths';
