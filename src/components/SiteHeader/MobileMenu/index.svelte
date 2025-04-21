@@ -1,5 +1,5 @@
 <script>
-  import ReutersLogo from '../../ReutersLogo/ReutersLogo.svelte';
+  import ScrolliLogo from '../../ScrolliLogo/ScrolliLogo.svelte';
   import CloseIcon from '../svgs/Close.svelte';
   import { normalizeUrl } from '../NavBar/utils/index.js';
 
@@ -22,10 +22,9 @@
   >
     <header class="header">
       <div class="logo">
-        <ReutersLogo
-          logoColour="var(--nav-accent)"
-          textColour="var(--nav-primary)"
-        />
+        <a href="https://www.reuters.com" aria-label="Scrolli home">
+          <ScrolliLogo width="100%" />
+        </a>
       </div>
       <button class="button close-button" on:click="{releaseMobileMenu}">
         <div class="button-container">
