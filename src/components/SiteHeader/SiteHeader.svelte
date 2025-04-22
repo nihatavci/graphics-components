@@ -1,6 +1,6 @@
 <!-- @component `SiteHeader` [Read the docs.](https://reuters-graphics.github.io/graphics-components/?path=/docs/components-page-furniture-siteheader--docs) -->
 <script lang="ts">
-  import ScrolliLogo from '../ScrolliLogo/ScrolliLogo.svelte';
+  import ReutersGraphicsLogo from '../ReutersGraphicsLogo/ReutersGraphicsLogo.svelte';
   import NavBar from './NavBar/index.svelte';
   import starterData from './data.json';
   import { onMount, setContext } from 'svelte';
@@ -56,8 +56,11 @@
         <div class="main-bar">
           <div class="logo-container">
             <div class="logo">
-              <a href="https://www.reuters.com" aria-label="Scrolli home">
-                <ScrolliLogo width="100%" />
+              <a
+                href="https://www.reuters.com"
+                aria-label="Reuters Graphics home"
+              >
+                <ReutersGraphicsLogo width="100%" />
               </a>
             </div>
           </div>

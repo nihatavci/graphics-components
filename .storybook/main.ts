@@ -2,16 +2,20 @@ import type { StorybookConfig } from '@storybook/svelte-vite';
 import remarkGfm from 'remark-gfm';
 
 const config: StorybookConfig = {
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx|svelte)'],
+  stories: [
+    '../src/pages/**/*.mdx',
+    '../src/components/**/*.stories.@(js|jsx|ts|tsx|svelte)'
+  ],
   staticDirs: ['../public'],
   addons: [
     '@storybook/addon-svelte-csf',
     '@storybook/addon-links',
-    '@storybook/addon-actions',
-    '@storybook/addon-viewport',
+    '@storybook/addon-essentials',
     {
       name: '@storybook/addon-docs',
       options: {
+        configureJSX: true,
+        babelOptions: {},
         mdxPluginOptions: {
           mdxCompileOptions: {
             remarkPlugins: [remarkGfm],
@@ -25,12 +29,19 @@ const config: StorybookConfig = {
     '@storybook/addon-measure',
     '@storybook/addon-outline',
     '@storybook/addon-interactions',
-    '@chromatic-com/storybook',
   ],
-  framework: '@storybook/svelte-vite',
+  framework: {
+    name: '@storybook/svelte-vite',
+    options: {}
+  },
   core: {
     disableTelemetry: true,
+    builder: '@storybook/builder-vite'
   },
-  docs: {},
+  docs: {
+    autodocs: true,
+    defaultName: 'Documentation'
+  }
 };
+
 export default config;

@@ -1,0 +1,91 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Documentation/Overview" />
+
+# Scrolli Components
+
+Welcome to the Scrolli Components documentation. This library provides a collection of reusable components for building clean, modern, and accessible user interfaces, designed for digital publishing and storytelling platforms like Scrolli.co.
+
+Scrolli.co is a digital platform offering insightful analysis and stories on technology, culture, and societal trends. Designed for curious general audiences, it prioritizes concise, well-researched journalism over clickbait, blending depth with accessibility. The site's clean, minimalist layout emphasizes readability, using bold headlines, high-quality visuals, and intuitive navigation to create a seamless experience across devices.
+
+## Available Components
+
+### Logo Components
+
+The following components are available for use in your application:
+
+- **ScrolliLogo** – The official Scrolli brand logo component
+  - Responsive design
+  - Configurable width
+  - Maintains aspect ratio
+
+### Layout Components
+
+Core layout components for building your application:
+
+- **SiteHeader** – Main navigation header component
+- **SiteFooter** – Footer component with navigation and links
+
+## Installation
+
+```bash
+npm install @scrolli/graphics-components
+```
+
+## Basic Usage
+
+Here's a basic example of using our components:
+
+```svelte
+<script>
+  import { ScrolliLogo, SiteHeader, SiteFooter } from '@scrolli/graphics-components';
+</script>
+
+<SiteHeader>
+  <ScrolliLogo width="200px" />
+</SiteHeader>
+
+<!-- Your content here -->
+
+<SiteFooter />
+```
+
+## Design Principles
+
+Our components follow these key principles:
+
+1. **Responsive by Default**
+   - All components are designed to work across different screen sizes
+   - Fluid layouts that adapt to viewport changes
+
+2. **Accessibility First**
+   - ARIA support built-in
+   - Keyboard navigation
+   - Screen reader friendly
+
+3. **Customizable**
+   - Flexible props for customization
+   - Consistent theming support
+   - Maintainable defaults
+
+4. **Performance Focused**
+   - Optimized bundle size
+   - Efficient rendering
+   - Minimal dependencies
+
+## Contributing
+
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details on:
+
+- Setting up your development environment
+- Making changes
+- Submitting pull requests
+- Code review process
+
+## Support
+
+If you need help or have questions:
+
+- Check our [documentation](/?path=/docs)
+- Open an [issue](https://github.com/scrolli/graphics-components/issues)
+- Join our [community discussions](https://github.com/scrolli/graphics-components/discussions)
