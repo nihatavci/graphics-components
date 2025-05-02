@@ -2,7 +2,7 @@
   import LeaderboardAd from './LeaderboardAd.svelte';
   // @ts-ignore raw
   import adDocs from './stories/docs/leaderboard.md?raw';
-  import { withComponentDocs } from './../../docs/utils/withParams';
+  import { withComponentDocs } from '../../docs/utils/withParams';
 
   export const meta = {
     title: 'Components/Ads & analytics/LeaderboardAd',

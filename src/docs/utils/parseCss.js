@@ -1,5 +1,5 @@
 import { compileString } from 'sass';
-import { convert } from '../../../bin/css-to-js/index.js';
+import { convert } from '../../../../bin/css-to-js/index.js';
 import { kebabCase } from 'lodash-es';
 
 export const cssStringToTableArray = (cssString, withInclude = false) => {
@@ -17,7 +17,7 @@ export const cssStringToTableArray = (cssString, withInclude = false) => {
       })
       .join('\n');
     return withInclude ?
-        [className, className, properties]
+      [className, className, properties]
       : [className, properties];
   });
 };

@@ -13,13 +13,24 @@
     "jsx": "react",
     "baseUrl": ".",
     "rootDir": ".",
-    "rootDirs": [".", "docs/docs-components"],
+    "rootDirs": [
+      ".",
+      "docs/docs-components"
+    ],
     "outDir": "dist",
     "paths": {
-      "$lib": ["src"],
-      "$lib/*": ["src/*"],
-      "$docs": ["src/docs"],
-      "$docs/*": ["src/docs/*"]
+      "$lib": [
+        "src"
+      ],
+      "$lib/*": [
+        "src/*"
+      ],
+      "$docs": [
+        "src/pages/docss/docs"
+      ],
+      "$docs/*": [
+        "src/docs/*docs/*"
+      ]
     },
     "sourceMap": true,
     "strict": true,
@@ -36,7 +47,11 @@
     "*.ts",
     "*.js",
     "*.cjs",
-    "src/docs/**/*.css"
+    "src/docs/**/*.css/*.css"
   ],
-  "exclude": ["dist", "eslint.config.js", "bin/newComponent/template/**/*"]
+  "exclude": [
+    "dist",
+    "eslint.config.js",
+    "bin/newComponent/template/**/*"
+  ]
 }

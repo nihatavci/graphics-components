@@ -3,7 +3,7 @@
   // @ts-ignore raw
   import componentDocs from './stories/docs/component.md?raw';
 
-  import { withComponentDocs } from '$docs/utils/withParams.js';
+  import { withComponentDocs } from '$lib/docs/utils/withParams.js';
 
   export const meta = {
     title: 'Components/Text elements/BodyText',

@@ -5,7 +5,7 @@
   // @ts-ignore raw
   import customWellWidthsDocs from './stories/docs/customWellWidths.md?raw';
 
-  import { withComponentDocs, withStoryDocs } from '$docs/utils/withParams.js';
+  import { withComponentDocs, withStoryDocs } from '$lib/docs/utils/withParams.js';
 
   export const meta = {
     title: 'Components/Page Layout/Article',

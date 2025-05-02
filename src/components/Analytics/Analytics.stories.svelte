@@ -7,7 +7,7 @@
   // @ts-ignore raw
   import multipageDocs from './stories/docs/multipage.md?raw';
 
-  import { withComponentDocs, withStoryDocs } from '$docs/utils/withParams.js';
+  import { withComponentDocs, withStoryDocs } from '$lib/docs/utils/withParams.js';
 
   export const meta = {
     title: 'Components/Ads & analytics/Analytics',

@@ -1,0 +1,50 @@
+import { Meta, Title, Description, Story } from '@storybook/blocks';
+import * as RenewableEnergyStories from '../components/Article/RenewableEnergyTransition.stories.svelte';
+
+<Meta title="Articles/Renewable Energy/Documentation" />
+
+<Title>Renewable Energy Transition Article</Title>
+
+<Description>
+  This article explores the global transition to renewable energy sources, featuring interactive visualizations and scrollytelling components.
+</Description>
+
+## Overview
+
+This article component combines several key features:
+- Scrollytelling with interactive graphics
+- Data visualization using Datawrapper
+- Feature photos and image galleries
+- Responsive layout design
+
+## Usage
+
+Import and use the component:
+
+```svelte
+<script>
+  import { RenewableEnergyTransition } from '@scrolli/graphics-components';
+</script>
+
+<RenewableEnergyTransition
+  title="The Global Shift: Tracking Renewable Energy's Rise"
+  authors={['Your Name']}
+  publishDate={new Date().toISOString()}
+  heroPhotoSrc="/path/to/hero-image.jpg"
+  heroPhotoCaption="Description of the hero image"
+/>
+```
+
+## Live Example
+
+<Story of={RenewableEnergyStories.Default} />
+
+## Props
+
+| Prop | Type | Description |
+|------|------|-------------|
+| title | string | The main title of the article |
+| authors | string[] | Array of author names |
+| publishDate | string | ISO date string for publication date |
+| heroPhotoSrc | string | URL of the hero image |
+| heroPhotoCaption | string | Caption for the hero image | 

@@ -8,7 +8,7 @@
 
   import Block from './Block.svelte';
 
-  import { withComponentDocs, withStoryDocs } from '$docs/utils/withParams.js';
+  import { withComponentDocs, withStoryDocs } from '$lib/docs/utils/withParams.js';
   import { toId } from '@storybook/csf';
 
   export const meta = {

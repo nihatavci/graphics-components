@@ -106,6 +106,7 @@
     "rimraf": "^5.0.0",
     "sass": "^1.81.0",
     "storybook": "^8.4.4",
+    "surge": "^0.24.6",
     "svelte": "^4.2.18",
     "svelte-loader": "^3.2.3",
     "tiny-glob": "^0.2.9",

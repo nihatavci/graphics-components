@@ -6,7 +6,7 @@
 
   import ReferralBlock from './ReferralBlock.svelte';
 
-  import { withComponentDocs, withStoryDocs } from '$docs/utils/withParams.js';
+  import { withComponentDocs, withStoryDocs } from '$lib/docs/utils/withParams.js';
 
   export const meta = {
     title: 'Components/Page furniture/ReferralBlock',
